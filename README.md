@@ -78,6 +78,7 @@ Alle zehn Stile liegen fertig in `data/eyes/`:
 | `noScleraEye_240.h` | grosse Iris, keine Sklera |
 | `owlEye_240.h` | Eulenauge (Original: ohne Tracking am besten) |
 | `terminatorEye_240.h` | Git to da choppah! |
+| `redEye_240.h` | eigenes rotes Auge (Vecteezy-Vorlage, siehe LICENSE) |
 
 Aktiviert wird genau ein Include in `src/eyes/eye_assets.cpp` (alle anderen
 auskommentiert). Entweder von Hand aendern oder per Skript:
@@ -160,3 +161,5 @@ Lid-Frame zur visuellen Kontrolle vor dem Flashen.
   MIT-Lizenz, adaptiert von dalori/ESP32-uncanny-eyes-halloween-skull.
   Originale Sketchdateien: docs/reference/.
 - Display-Anbindung orientiert an synex-c21/ESP32-Plane-Radar-metrers.
+- Das redEye basiert auf einer Vecteezy-Vorlage (Free License mit
+  Attribution-Pflicht), Details und Bild-Link: LICENSE.

@@ -19,7 +19,8 @@
 //#include "noScleraEye_240.h"   // large iris, no sclera
 //#include "owlEye_240.h"        // Minerva the owl (no tracking)
 //#include "terminatorEye_240.h"  // git to da choppah!
-#include "eye_test_240.h"      // custom eye (scripts/make_eye_from_image.py)
+#include "redEye_240.h"         // custom red eye (scripts/make_eye_from_image.py,
+                                // source: Vecteezy PNG, see LICENSE)
 
 namespace eye_assets {
 

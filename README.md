@@ -14,6 +14,27 @@ dessen Display-Anschluss hier unverändert übernommen wurde.
 Alle Konfiguration: **include/config.h** (Pins, Verhalten) und
 **src/eyes/eye_assets.cpp** (Eye-Style).
 
+## Impressionen
+
+Die Augen in Aktion:
+
+![Augen in Aktion](docs/images/eyes_demo.gif)
+
+Hardware-Aufbau und Gehäuse:
+
+<table>
+  <tr>
+    <td><img src="docs/images/aufbau_displays.jpg" alt="ESP32-C3 Super Mini mit zwei runden GC9A01-Displays" width="400"></td>
+    <td><img src="docs/images/aufbau_verdrahtung.jpg" alt="Offenes Gehäuse mit Platine und Verdrahtung" width="400"></td>
+    <td><img src="docs/images/gehaeuse.jpg" alt="Fertiges Gerät mit eingebautem rundem Display" width="400"></td>
+  </tr>
+  <tr>
+    <td align="center">Displays am Super Mini</td>
+    <td align="center">Verdrahtung im Gehäuse</td>
+    <td align="center">Fertig eingebaut</td>
+  </tr>
+</table>
+
 ## Verdrahtung
 
 Beide Displays hängen am selben SPI-Bus, nur CS ist pro Auge einzeln:
